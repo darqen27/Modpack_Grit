@@ -1,0 +1,14 @@
+{
+	"title": "Grit",
+	"author": [
+		"TheCowKing_moo"
+	],
+	"icon": "item:immersiveengineering:drillhead",
+	"pages": [
+		{
+			"id": "ore_generation",
+			"title": "Ore Generation",
+			"icon": "item:minecraft:iron_ore"
+		}
+	]
+}
