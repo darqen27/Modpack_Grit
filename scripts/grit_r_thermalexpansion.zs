@@ -27,6 +27,23 @@ mods.thermalexpansion.InductionSmelter.removeRecipe(ingotIron, fuelCoke);
 mods.thermalexpansion.InductionSmelter.removeRecipe(ingotIron, dustCoal);
 mods.thermalexpansion.InductionSmelter.removeRecipe(ingotIron, dustCharcoal);
 
+##=====ItemDucts
+
+#Regular Itemduct
+recipes.remove(<thermaldynamics:duct_32>);
+recipes.addShaped(<thermaldynamics:duct_32>, [[<ore:plateTin>, <ore:plateTin>, <ore:plateTin>], [<ore:plateTin>, <ore:blockGlassHardened>, <ore:plateTin>], [<ore:plateTin>, <ore:plateTin>, <ore:plateTin>]]);
+#Opaque
+recipes.remove(<thermaldynamics:duct_32:1>);
+recipes.addShaped(<thermaldynamics:duct_32:1>, [[<thermaldynamics:duct_32>, <ore:ingotLead>]]);
+
+
+#Lead Fluxduct
+recipes.remove(<thermaldynamics:duct_0>);
+recipes.addShaped(<thermaldynamics:duct_0>, [[<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>], [<ore:blockLead>, <ore:blockGlassHardened>, <ore:blockLead>], [<ore:blockRedstone>, <ore:blockRedstone>, <ore:blockRedstone>]]);
+
+#Electrum Fluxduct
+recipes.remove(<thermaldynamics:duct_0:6>);
+recipes.addShaped(<thermaldynamics:duct_0:6>, [[<ore:blockElectrum>, <thermalfoundation:glass:3>, <ore:blockElectrum>]]);
 
 
 
@@ -44,25 +61,25 @@ recipes.addShaped(<thermalexpansion:frame:0>, [[<ore:blockSteel>, <ore:blockGlas
 
 #Coil
 recipes.remove(<thermalfoundation:material:513>);
-recipes.addShaped(<thermalfoundation:material:513>, [[null, <thermalfoundation:material:131>, <minecraft:redstone_block>],[<thermalfoundation:material:131>, <minecraft:gold_block>, <thermalfoundation:material:131>], [<minecraft:redstone_block>, <thermalfoundation:material:131>, null]])
+recipes.addShaped(<thermalfoundation:material:513>, [[null, <thermalfoundation:material:131>, <ore:blockRedstone>],[<thermalfoundation:material:131>, <minecraft:gold_block>, <thermalfoundation:material:131>], [<ore:blockRedstone>, <thermalfoundation:material:131>, null]])
 ;
 #Coil
 recipes.remove(<thermalfoundation:material:514>);
-recipes.addShaped(<thermalfoundation:material:514>, [[null, <thermalfoundation:material:131>, <minecraft:redstone_block>],[<thermalfoundation:material:131>, <thermalfoundation:storage:2>, <thermalfoundation:material:131>], [<minecraft:redstone_block>, <thermalfoundation:material:131>, null]]);
+recipes.addShaped(<thermalfoundation:material:514>, [[null, <thermalfoundation:material:131>, <ore:blockRedstone>],[<thermalfoundation:material:131>, <thermalfoundation:storage:2>, <thermalfoundation:material:131>], [<ore:blockRedstone>, <thermalfoundation:material:131>, null]]);
 
 #Coil
 recipes.remove(<thermalfoundation:material:515>);
-recipes.addShaped(<thermalfoundation:material:515>, [[<minecraft:redstone_block>, <thermalfoundation:material:131>, null],[<thermalfoundation:material:131>, <ore:blockElectrum>, <thermalfoundation:material:131>], [null, <thermalfoundation:material:131>, <minecraft:redstone_block>]]);
+recipes.addShaped(<thermalfoundation:material:515>, [[<ore:blockRedstone>, <thermalfoundation:material:131>, null],[<thermalfoundation:material:131>, <ore:blockElectrum>, <thermalfoundation:material:131>], [null, <thermalfoundation:material:131>, <ore:blockRedstone>]]);
 
 #Redstone Servo
 recipes.remove(<thermalfoundation:material:512>);
-recipes.addShaped(<thermalfoundation:material:512>, [[null, <minecraft:redstone_block>, null],[null, <thermalfoundation:storage_alloy>, null], [null, <minecraft:redstone_block>, null]]);
+recipes.addShaped(<thermalfoundation:material:512>, [[null, <ore:blockRedstone>, null],[null, <thermalfoundation:storage_alloy>, null], [null, <ore:blockRedstone>, null]]);
 
 #=====Upgrade Kits
 
 #Hardened
 recipes.remove(<thermalfoundation:upgrade>);
-recipes.addShaped(<thermalfoundation:upgrade>, [[null, <ore:blockInvar>, null],[<ore:blockInvar>, <ore:gearBronze>, <ore:blockInvar>], [<minecraft:redstone_block>, <ore:blockInvar>, <minecraft:redstone_block>]]);
+recipes.addShaped(<thermalfoundation:upgrade>, [[null, <ore:blockInvar>, null],[<ore:blockInvar>, <ore:gearBronze>, <ore:blockInvar>], [<ore:blockRedstone>, <ore:blockInvar>, <ore:blockRedstone>]]);
 
 #Reinforce
 recipes.remove(<thermalfoundation:upgrade:1>);
