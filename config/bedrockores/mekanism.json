@@ -1,0 +1,22 @@
+[
+  {
+  "enabled": true,
+    "state": {
+      "name": "mekanism:oreblock",
+      "properties": {
+        "resource": "osmium"
+      }
+    },
+	"biomeFilter": "whitelist",
+    "biomeSelector": "dictionary",
+    "biome": ["SNOWY"],
+    "widthMin": 4,
+    "widthMax": 6,
+    "countMin": 10,
+    "countMax": 16,
+    "yieldMin": 64,
+    "yieldMax": 80,
+    "group": "osmium",
+    "groupOrder": "mekanism"
+  }
+ ]

@@ -32,4 +32,4 @@ mods.immersiveengineering.BlastFurnace.removeFuel(<chisel:block_charcoal>);
 mods.immersiveengineering.BlastFurnace.removeFuel(<forestry:charcoal>);
 mods.immersiveengineering.BlastFurnace.removeFuel(<mekanism:basicblock:3>);
 mods.immersiveengineering.BlastFurnace.removeFuel(<thermalfoundation:storage_resource>);
-mods.immersiveengineering.BlastFurnace.removeFuel(<tp:charcoal_block>);
+#mods.immersiveengineering.BlastFurnace.removeFuel(<tp:charcoal_block>);

@@ -313,10 +313,9 @@
                 ]
             },
             "dimension": {
-                "restriction": "blacklist",
+                "restriction": "whitelist",
                 "value": [
-                    -1,
-                    1
+                    -1
                 ]
             }
 		},
